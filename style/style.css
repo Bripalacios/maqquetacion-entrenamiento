@@ -54,3 +54,27 @@
   padding-top: 30px;
   background: white;
 }
+
+.redimension-dos {
+  width: 23px;
+  height: 25px;
+  gap: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .hero-image {
+    width: 100%;
+    height: 300px;
+  }
+  .seccion-uno {
+    padding-top: 100px;
+  }
+
+  .btn-uno {
+    width: 110px;
+    height: 35px;
+  }
+  .card {
+    width: 100%;
+  }
+}
